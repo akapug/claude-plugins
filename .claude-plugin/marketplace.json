@@ -1,0 +1,28 @@
+{
+  "name": "elide-plugins",
+  "owner": {
+    "name": "Elide",
+    "email": "hello@elide.dev",
+    "url": "https://elide.dev"
+  },
+  "metadata": {
+    "description": "Official Elide runtime plugins for Claude Code - polyglot development superpowers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "elide",
+      "source": "./plugins/elide",
+      "description": "Give Claude expert knowledge of Elide's polyglot runtime, enabling seamless JavaScript/TypeScript, Python, Ruby development with cross-language interop, performance optimization, and WHIPLASH build system integration.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n⚡️ QUICK START\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🧠 /elide:init - initial setup (run this first!)\n📖 /elide:help - view all plugin features\n🚀 /elide:run - run polyglot code",
+      "version": "1.0.0",
+      "author": {
+        "name": "Elide"
+      },
+      "homepage": "https://elide.dev",
+      "repository": "https://github.com/akapug/claude-plugins",
+      "license": "MIT",
+      "category": "runtime",
+      "keywords": ["elide", "polyglot", "runtime", "javascript", "typescript", "python", "ruby", "graalvm", "performance"]
+    }
+  ]
+}
